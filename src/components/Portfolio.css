@@ -1,0 +1,26 @@
+.Portfolio {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  /* top: 150px;
+  right: 100px; */
+
+  margin: auto;
+}
+/* .btn1 {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border-color: white;
+  border-width: thick;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+  margin-top: 50px;
+
+  outline: none;
+  padding: 20px 60px 20px 60px;
+
+  border-collapse: separate;
+  overflow: hidden;
+} */

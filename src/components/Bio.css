@@ -1,0 +1,42 @@
+.Bio {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  /* top: 150px; */
+  /* right: 50px; */
+
+  max-width: 700px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.Bio-name-text {
+  font-size: calc(7vmin + 1px);
+}
+
+.Bio-tagline-text {
+  font-size: calc(2vmin + 1px);
+  text-align: center;
+}
+
+.btn1 {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border-collapse: separate;
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+  color: white;
+  cursor: pointer;
+
+  margin-top: 10%;
+  margin-left: 30%;
+  max-width: 250px;
+  outline: none;
+  overflow: hidden;
+
+  padding: 20px 60px 20px 60px;
+  font-size: large;
+  /* margin: auto; */
+}
