@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
-import Button from './components/button';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <Button />  */}
+    <title>Ishmael Williams</title>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
