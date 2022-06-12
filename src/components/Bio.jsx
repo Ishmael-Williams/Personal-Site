@@ -35,3 +35,4 @@ function Bio() {
 }
 
 export default Bio;
+
