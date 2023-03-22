@@ -22,7 +22,7 @@ a {
 .Bio-tagline-text {
   font-size: calc(2vmin + 1px);
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 .icon{
   padding-right: 10px;
