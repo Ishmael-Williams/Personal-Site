@@ -1,6 +1,7 @@
 import "./Bio.css";
 import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaGoogleDrive } from "react-icons/fa";
+import { profilePic } from "../images/profile-pic.png";
 
 function Bio() {
   return (

@@ -17,6 +17,8 @@ a {
 
 .Bio-name-text {
   font-size: calc(7vmin + 1px);
+  /* font-size: 55px; */
+  text-align: center;
 }
 
 .Bio-tagline-text {
@@ -24,6 +26,16 @@ a {
   text-align: center;
   font-weight: 500;
 }
+
+@media screen and (max-width: 480px){
+  .Bio-name-text {font-size: calc(12vmin + 1px);}
+  .Bio-tagline-text {
+    font-size: calc(3vmin + 1px);
+    font-weight: 600;
+  }
+}
+
+
 .icon{
   padding-right: 10px;
   padding-top: 10px;
@@ -41,11 +53,14 @@ a {
   margin: auto;
   margin-top: 3%;
   min-width: 300px;
+  /* min-width: auto; */
+  
   outline: none;
   overflow: hidden;
 
   padding: 20px 60px 20px 60px;
   font-size: 20px;
+  
   transition-duration: .2s;
 }
 
