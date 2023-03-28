@@ -17,7 +17,6 @@ a {
 
 .Bio-name-text {
   font-size: calc(7vmin + 1px);
-  /* font-size: 55px; */
   text-align: center;
 }
 
@@ -25,12 +24,13 @@ a {
   font-size: calc(2vmin + 1px);
   text-align: center;
   font-weight: 500;
+  min-width: 100px;
 }
 
 @media screen and (max-width: 480px){
-  .Bio-name-text {font-size: calc(12vmin + 1px);}
+  .Bio-name-text {font-size: calc(13vmin + 1px);}
   .Bio-tagline-text {
-    font-size: calc(3vmin + 1px);
+    font-size: calc(4vmin + 1px);
     font-weight: 600;
   }
 }
@@ -53,7 +53,6 @@ a {
   margin: auto;
   margin-top: 3%;
   min-width: 300px;
-  /* min-width: auto; */
   
   outline: none;
   overflow: hidden;
