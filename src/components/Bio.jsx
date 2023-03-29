@@ -1,11 +1,13 @@
 import "./Bio.css";
 import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaGoogleDrive } from "react-icons/fa";
-import { profilePic } from "../images/profile-pic.png";
+import profilePic from "../images/profile-pic.png";
 
 function Bio() {
   return (
     <div className={"Bio"}>
+
+      <img src={profilePic} className={"ProfilePicture"}  alt="Profile picture"/>
       <text className={"Bio-name-text"}>Ishmael Williams</text>
       <p className={"Bio-tagline-text"}>KSU Computer Science Graduate</p>
       <p className={"Bio-tagline-text"}>ishmaelwilliams777@gmail.com</p>
